@@ -11,6 +11,8 @@ public class App
 	{
 		return a+b;
 	}
+	
+	//substraction of two numbers
 	public int substract(int a, int b)
 	{
 		return a-b;

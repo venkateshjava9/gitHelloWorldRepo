@@ -3,7 +3,7 @@ node
   stage("SCM")
   {
   echo "Gathering code from GitHub"
-  git branch: "${branch}", url: "https://github.com/venkateshjava9/gitHelloWorldRepo.git"
+  git branch: '${branch}', url: 'https://github.com/venkateshjava9/gitHelloWorldRepo.git'
   }
   stage("Build")
   {

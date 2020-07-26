@@ -1,5 +1,9 @@
 node
 {
+  stage("SCM")
+  {
+  echo "Gathering code from GitHub"
+  }
   stage("Build")
   {
     echo "building..."

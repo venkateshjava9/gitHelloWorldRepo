@@ -6,6 +6,8 @@ node
   echo "This is build numer $Build Number of Demo"
   sh '''
       echo "This is multiline shell script"
+      chmod +x test.sh
+      ./test.sh
   '''
   
   }

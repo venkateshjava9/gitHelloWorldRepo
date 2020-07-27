@@ -3,6 +3,10 @@ node
   stage("SCM")
   {
   echo "Gathering code from GitHub"
+  echo "This is build numer $Build Number of Demo"
+  sh '''
+      echo "This is multiline shell script"
+  '''
   
   }
   stage("Build")
